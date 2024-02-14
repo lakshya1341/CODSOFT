@@ -1,0 +1,426 @@
+#big{
+    background: url(https://c8.alamy.com/comp/2F5TP5H/gradient-gray-background-for-wallpapers-and-designs-blurred-abstract-gray-gradient-pastel-light-background-2F5TP5H.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box ;
+}
+
+.head{
+    height:100vh;
+    width: 100%;
+background-image: url(https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29ya2luZyUyMGdpcmx8ZW58MHx8MHx8fDA%3D);
+    /* background-image: url(https://img.freepik.com/free-photo/portrait-business-woman-working-laptop_1303-9727.jpg);     */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logoo{
+justify-content: left;
+    color:rgb(8, 117, 43);
+    font-family: Kalnia;
+    /* text-decoration:overline; */
+    text-decoration:dotted;
+    letter-spacing: 1.5px;
+    font-size: 45px;
+    font-style: italic;
+    border: 2px dotted rgb(7, 71, 7);
+    /* border-style: ; */
+}
+.lio{
+    color: rgb(184, 0, 0);
+    font-family: Rubik Maps    ;
+    font-weight:bold;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 22px 15px;
+    text-decoration:double;
+    color: black;
+}
+
+nav ul li a{
+    color: rgb(251, 88, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    /* color: rgb(0, 126, 158); */
+    color: rgb(11, 0, 158);
+    transform: 0.4s;
+
+}
+.btn{
+    background-color:rgb(251, 88, 0) ;
+    border:3px solid transparent;
+    border-radius: 15px;
+    font-size: larger;
+    text-decoration: none;
+    color: aliceblue;
+    transition: transform .4s;
+
+}
+.btn:hover{
+    color: rgb(11, 0, 158);
+    transform: scale(1.2);
+}
+.content{
+ position: absolute;
+ top: 40%;
+ left: 14%;
+ /* right: 90%;    */
+ /* width:fit-content; */
+ transform: translateY(-35%);
+}
+h1{
+    margin: 20px 0px 20px;
+    font-family: Dancing Script;
+    font-size: 75px;
+    font-weight: bolder;
+}
+h3{
+    margin: 10px 0px 10px;
+    border: 3px solid saddlebrown;
+    font-size: 25px;
+}
+h4{
+    color: rgb(11, 14, 16);
+    margin: 5px 0px 5px;
+    font-size: 22px;
+}
+.maill form{
+    width: 200px;
+    max-width: 100%;
+    position: relative;
+    margin: 5px 0px 5px;
+}
+.maill form input:first-child{
+    /* max-width: 100%; */
+    display: inline-block;
+    width: 100%;
+    /* padding: 14px 130px 10px 40px; */
+    padding: 2px;
+    border-color: rgb(93, 7, 7);
+    border-radius: 20px;
+}
+.maill form input:last-child{
+    display: inline-block;
+    border: none;
+    outline: none;
+    position: absolute;
+    padding: 10px 10px ;
+    margin: 10px;
+    background-color: rgb(251, 88, 0);
+    border-radius: 30px;
+   box-shadow: 1px 1px 50px rgb(254, 44, 44);
+}
+.maill form input:last-child:hover{
+color: aliceblue;
+}
+
+.gup{
+    font-family: Dancing Script;
+    color: rgb(184, 0, 0);   
+}
+.about{
+    width: 100%;
+    padding: 100px 0px ;
+    /* background-color:aliceblue; */
+    /* background: url(https://media.istockphoto.com/id/1367756031/vector/light-blue-watercolor-background-illustration.jpg?s=612x612&w=0&k=20&c=qiJl7j-2terwHd-1YJxiFIo1VJx6l6IsmoqlgeypQ7c=); */
+    background: url(https://c8.alamy.com/comp/2F5TP5H/gradient-gray-background-for-wallpapers-and-designs-blurred-abstract-gray-gradient-pastel-light-background-2F5TP5H.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.about img{
+    height: auto;
+    width: 450px;
+}
+.About_text{
+    width: 450px;
+}
+.main{
+    width: 1250px;
+    max-width: 95%;
+    padding-left: 150px;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.About_text h2{
+    letter-spacing: 4px;
+    font-size: 55px;
+    font-family: Kalnia;
+    text-transform: capitalize;
+}
+
+.About_text h4{ 
+    color:rgb(89, 83, 83) ;
+    letter-spacing: 2px;
+    font-family: Kalnia;
+    font-style: italic;
+}
+.About_text h4 span{
+    color: rgb(184, 0, 0);
+}
+.About_text p{
+    color: rgb(4, 108, 74);
+    font-family: Playfair Display;
+    font-size:17px;
+    letter-spacing: 1px;
+} 
+.About_text h5{
+
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 20px 0px;
+}
+.About_text button{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(237, 10, 10);
+    outline: none;
+    border: 4px solid transparent;
+    /* color: rgb(17, 80, 161); */
+    color: rgb(238, 239, 241);
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 100px;
+}
+.About_text button:hover{
+    /* background-color:transparent; */
+    background-color: black;
+    /* border: 4px solid red; */
+
+}
+
+.skills{
+    /* background-color:aliceblue; */
+    background: url(https://c8.alamy.com/comp/2F5TP5H/gradient-gray-background-for-wallpapers-and-designs-blurred-abstract-gray-gradient-pastel-light-background-2F5TP5H.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.title h2{
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+    font-family: Kalnia;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 35px auto;
+    width: 600px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100x;
+}
+.skill{
+    height: 350px;
+    width: 250px;
+    padding: 40px 35px;
+    /* padding: 20px 35px; */
+    margin: 20px;
+    background-color: rgb(133, 15, 2);
+    box-shadow: 20px 15px 50px rgb(207, 30, 11);
+
+    border-radius: 100px;
+    text-align: center;
+}
+.skill i{
+    font-size:80px;
+    margin:5px ;
+    font-weight: bold;
+    color: rgb(234, 231, 228);
+}
+.skill h5{
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 40px;
+    font-family: Playfair Display;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.project{
+    /* background-color: rgb(214, 216, 218); */
+    background: url(https://c8.alamy.com/comp/2F5TP5H/gradient-gray-background-for-wallpapers-and-designs-blurred-abstract-gray-gradient-pastel-light-background-2F5TP5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+}
+.mainn img{
+    height: auto;
+    width: 600px;
+    margin: 55px ;
+}
+.textt{
+    width:380px;
+}
+.mainn{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    width: 1350px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.textt h2{
+    font-size: 55px;
+    font-family: Kalnia;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-bottom: 8px;
+    border: 3px double rebeccapurple;
+    box-shadow: 7px 7px 10px rgb(97, 34, 160);
+}
+.textt p{
+    margin: 40px;
+    padding: 14px;
+    border: 10px dotted brown;
+    border-radius: 4px;
+    box-shadow: 4px 4px 7px rgb(178, 53, 22);
+    font-size: 17px;
+    font-family: Playfair Display;
+    letter-spacing: 1px;
+    color: rgb(3, 66, 45);
+}
+
+.resume{
+    width: 100%;
+    padding: 50px 0px;
+    background: url(https://c8.alamy.com/comp/2F5TP5H/gradient-gray-background-for-wallpapers-and-designs-blurred-abstract-gray-gradient-pastel-light-background-2F5TP5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+.imgg img{
+    height: auto;
+    width: 425px;
+}
+.imgg{
+    display: flex;
+    width: 1250px;
+    max-width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+.heading h2{
+    margin: 100px;
+    padding: 40px;
+    text-align: center;
+    font-family: Kalnia;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(6, 59, 59);
+    border: 3px double rgb(26, 91, 91);
+    border-radius: 20px;
+    box-shadow: 5px 4px 18px darkcyan;
+}
+
+.contact{
+    width: 100%;
+    padding: 50px 0;
+    /* background-color: aliceblue; */
+    background: url(https://c8.alamy.com/comp/2F5TP5H/gradient-gray-background-for-wallpapers-and-designs-blurred-abstract-gray-gradient-pastel-light-background-2F5TP5H.jpg);
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    text-align: center;
+    justify-content: center;
+}
+.contact p{
+    font-family: Dancing Script;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 6px;
+    color: rgb(184, 0, 0);
+
+}
+.contact a{
+    text-decoration: none;
+    font-size:30px;
+    font-family: Kalnia;
+    font-weight: bold;
+    margin: 6px;
+    padding: 5px;
+    color:white;
+    border: 3px solid transparent;
+    background-color: brown;
+    border-radius:10px;
+    transition: transform .4s;
+
+}
+.contact a:hover{
+    color: black;
+    border: 4px solid black;
+    border-radius:10px;
+    background-color: aliceblue;
+    transform: scale(1.2s);
+    cursor: pointer;
+
+}
+.contact i{
+    font-size:30px;
+    position: relative;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.tags a i{
+    text-decoration: none;
+    color: aliceblue;
+
+}

@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    color: rgb(137, 0, 0);
+    text-decoration: rebeccapurple  underline;
+    /* margin: 50px; */
+}
+.heading h3{
+    font-family: Playfair Display    ;
+    margin: 6px;
+    padding: 70px;
+    font-style: italic;
+    font-size:30px ;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(230, 223, 215); */
+    background: url(https://img.freepik.com/premium-photo/double-exposure-abstract-virtual-statistics-data-hologram-blurry-calculator-with-laptop-background-statistics-analytics-concept_258654-3025.jpg?w=2000);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: rgb(47, 35, 35);
+    padding: 10px;
+    /* height: 450px; */
+    /* width: 350px; */
+    border-radius: 15px;
+    box-shadow: 4px 5px 6px rgb(119, 15, 15);
+    box-shadow: -4px -5px 15px rgb(119, 15, 15);
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    box-shadow: -4px -4px 10px rgb(100, 110, 118),6px 6px 16px black;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+.calculator form input:hover{
+    /* color:rgb(150, 111, 111) ;  */
+    background-color: rgb(71, 50, 50);
+
+}
+#display{
+    /* width:300px; */
+    display: flex;
+    justify-content:flex-end;
+    margin: 22px 0;
+}
+#display input{
+    text-align: right;
+    /* covers entire width */
+    flex: 1;
+    font-size: 48px;
+    box-shadow:none ;
+}
+form input.equal{
+     /* justify-content: center; */
+    width: 134px;
+}
+
+form input.color{
+    color: rgb(23, 240, 255);
+}
